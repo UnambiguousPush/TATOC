@@ -1,0 +1,446 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-18T19:12:04.398Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "check-cookie-handling-page;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6195867100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Cookie Handling page",
+            "match": {
+              "location": "CUCUMBER.CookieHandling.userIsOnCookieHandlingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 245284600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on Generate Token button",
+            "match": {
+              "location": "CUCUMBER.CookieHandling.clickOnGenerateTokenButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31636200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add the Token to the Cookie",
+            "match": {
+              "location": "CUCUMBER.CookieHandling.addTheTokenToTheCookie()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384816800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Proceed",
+            "match": {
+              "location": "CUCUMBER.CookieHandling.clickProceed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26089200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User moves to the End page",
+            "match": {
+              "location": "CUCUMBER.CookieHandling.userMovesToTheEndPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CookieHandling"
+          }
+        ]
+      }
+    ],
+    "name": "Check Cookie Handling page",
+    "description": "",
+    "id": "check-cookie-handling-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/cookiehandling.feature",
+    "tags": [
+      {
+        "name": "@CookieHandling",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-18T19:12:11.552Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "check-drag-around-page;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4328189600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Drag Around page",
+            "match": {
+              "location": "CUCUMBER.DragAround.userIsOnDragAroundPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 460895300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Perform Drag and Drop Action",
+            "match": {
+              "location": "CUCUMBER.DragAround.performDragAndDropAction()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 433957000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click proceed button",
+            "match": {
+              "location": "CUCUMBER.DragAround.clickProceedButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26361900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User moves to Popup Windows Page",
+            "match": {
+              "location": "CUCUMBER.DragAround.userMovesToPopupWindowsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DragAround"
+          }
+        ]
+      }
+    ],
+    "name": "Check Drag Around page",
+    "description": "",
+    "id": "check-drag-around-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/dragaround.feature",
+    "tags": [
+      {
+        "name": "@DragAround",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-18T19:12:16.838Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "check-framedungeon-page;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4518618000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on FrameDungeon page",
+            "match": {
+              "location": "CUCUMBER.FrameDungeon.userIsOnFrameDungeonPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1474274700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Repaint Box 2 till Box 1 and Box 2 have the same colour",
+            "match": {
+              "location": "CUCUMBER.FrameDungeon.repaintBoxTillBoxAndBoxHaveTheSameColour()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188282400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on proceed button",
+            "match": {
+              "location": "CUCUMBER.FrameDungeon.clickOnProceedButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29665100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User moves to Drag Around Page",
+            "match": {
+              "location": "CUCUMBER.FrameDungeon.userMovesToDragAroundPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FrameDungeon"
+          }
+        ]
+      }
+    ],
+    "name": "Check FrameDungeon page",
+    "description": "",
+    "id": "check-framedungeon-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/framedungeon.feature",
+    "tags": [
+      {
+        "name": "@FrameDungeon",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-18T19:12:23.077Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "check-grid-gate-page;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3709539000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on GridGate Page",
+            "match": {
+              "location": "CUCUMBER.GridGate.userIsOnGridGatePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31356300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Green Box is visible",
+            "match": {
+              "location": "CUCUMBER.GridGate.greenBoxIsVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320443900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Clicks on the Green Box",
+            "match": {
+              "location": "CUCUMBER.GridGate.userClicksOnTheGreenBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11803400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User moves to Frame Dungeon Page",
+            "match": {
+              "location": "CUCUMBER.GridGate.userMovesToFrameDungeonPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GridGate"
+          }
+        ]
+      }
+    ],
+    "name": "Check grid gate page",
+    "description": "",
+    "id": "check-grid-gate-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/gridgate.feature",
+    "tags": [
+      {
+        "name": "@GridGate",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-18T19:12:27.169Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "check-popupwindow-page;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3974674400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Popup Windows page",
+            "match": {
+              "location": "CUCUMBER.PopupWindows.userIsOnPopupWindowsPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150150500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on launch window button and new window launches",
+            "match": {
+              "location": "CUCUMBER.PopupWindows.clickOnLaunchWindowButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#name\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-MS8CI7JI\u0027, ip: \u0027192.168.98.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002710.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\Singh\u0027s Predator\\A...}, goog:chromeOptions: {debuggerAddress: localhost:52853}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3b7e8e3d11732625fb53275a1c06fe28\n*** Element info: {Using\u003did, value\u003dname}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat CUCUMBER.TATOC.EnterTextOnInputBoxAndClickSubmit(TATOC.java:154)\r\n\tat CUCUMBER.PopupWindows.enterTextOnInputBoxAndClickSubmit(PopupWindows.java:37)\r\n\tat ✽.enter text on input box and click submit(file:///D:/Sachin/QA/Assignments/Assignment7/src/test/java/Feature/popupwindows.feature:6)\r\n",
+              "duration": 2147735800,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "enter text on input box and click submit",
+            "match": {
+              "location": "CUCUMBER.PopupWindows.enterTextOnInputBoxAndClickSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click on Proceed button",
+            "match": {
+              "location": "CUCUMBER.PopupWindows.clickOnProceedButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1009200,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User moves to Cookie Handling page",
+            "match": {
+              "location": "CUCUMBER.PopupWindows.userMovesToCookieHandlingPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PopUpWindow"
+          }
+        ]
+      }
+    ],
+    "name": "Check popupwindow page",
+    "description": "",
+    "id": "check-popupwindow-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/popupwindows.feature",
+    "tags": [
+      {
+        "name": "@PopUpWindow",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
